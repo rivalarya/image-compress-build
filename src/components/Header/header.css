@@ -1,0 +1,15 @@
+.App-header {
+    background-color: rgb(216, 182, 164);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(12px + 1.6vmin);
+    color: black;
+}
+
+@media (max-width:576px) {
+    .App-header{
+        font-size: calc(11px + 1.2vmin);
+    }
+}
